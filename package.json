@@ -4,13 +4,14 @@
   "description": "FE developer assignment for lastminute.com",
   "scripts": {
     "start": "node ./scripts/dyson.js",
-    "test": "jest  -- **/*.spec.js "
+    "test": "jasmine"
   },
   "author": "lastminute.com",
   "private": true,
   "devDependencies": {
     "chromedriver": "^2.31.0",
     "dyson": "git+https://github.com/webpro/dyson.git",
+    "jasmine": "^2.7.0",
     "jest-cli": "^20.0.4"
   },
   "dependencies": {

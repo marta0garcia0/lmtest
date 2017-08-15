@@ -1,3 +1,7 @@
+lib/
+spec/jasmine_examples/
+spec/helpers/
+spec/support/
 node_modules/
 .idea
 *.iml

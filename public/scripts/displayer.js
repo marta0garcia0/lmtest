@@ -57,3 +57,4 @@ function displayer (data){
 	c.append(cc);
 	container.append(c);
 }
+module.exports = displayer;
