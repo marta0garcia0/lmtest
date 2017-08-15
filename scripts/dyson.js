@@ -11,4 +11,4 @@ myApp.use(express.static('public'));
 
 var configs = dyson.getConfigurations(options);
 dyson.registerServices(myApp, options, configs);
-myApp.listen(8765);
+myApp.listen(8766);
